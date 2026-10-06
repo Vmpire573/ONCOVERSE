@@ -1,8 +1,0 @@
-{
-  "resourceType": "Bundle",
-  "type": "collection",
-  "entry": [
-    {"resource": {"resourceType": "Patient", "id": "demo-001", "gender": "female", "birthDate": "1980-05-14"}},
-    {"resource": {"resourceType": "Condition", "id": "condition-001", "subject": {"reference": "Patient/demo-001"}, "code": {"coding": [{"system": "http://snomed.info/sct", "code": "254837009", "display": "Malignant neoplasm of breast"}]}, "stage": {"summary": {"text": "Stage II"}}}}
-  ]
-}

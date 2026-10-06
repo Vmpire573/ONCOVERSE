@@ -1,7 +1,0 @@
-# Ethics, privacy, and limitations
-
-OncoVerse is an educational software prototype, not a medical device or clinical decision-support product. Its data generator creates invented records and an artificial outcome relationship. Model scores and metrics therefore have no clinical meaning.
-
-The current prototype has no login, role separation, encryption at rest, privacy-preserving small-cell handling, deployment security, or tamper-proof audit. The schema and validation rules are intentionally small. Do not enter or upload patient-level or identifiable information. Before considering any real dataset, obtain institutional permission, verify data-use rights and consent, minimize and de-identify fields, control access, protect credentials, and follow local privacy and ethics requirements.
-
-Clinical predictive use would require a separate and properly governed research program, a justified intended use, representative datasets, external validation, calibration, subgroup and bias evaluation, prospective evaluation, human factors review, monitoring, and applicable regulatory approval. This repository does not perform any of these activities. It contains bounded demonstrations for FHIR review, generic image processing, Kafka streaming, Airflow scheduling, and clinical literature/trial discovery. These examples are not production integrations, diagnostic systems, or clinical decision support.
