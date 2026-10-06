@@ -1,0 +1,5 @@
+shap>=0.45,<1
+lifelines>=0.28,<1
+# Optional image-model experiments are not required for the presentation dashboard.
+torch>=2.2,<3
+torchvision>=0.17,<1

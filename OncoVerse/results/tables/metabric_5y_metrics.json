@@ -1,0 +1,36 @@
+{
+  "dataset": "Breast Cancer METABRIC (Kaggle)",
+  "task": "5_year_overall_survival_research_classification",
+  "records_used": 1917,
+  "positive_5y_events": 427,
+  "features": [
+    "age_at_diagnosis",
+    "tumor_size",
+    "tumor_stage",
+    "neoplasm_histologic_grade",
+    "lymph_nodes_examined_positive",
+    "mutation_count",
+    "nottingham_prognostic_index",
+    "er_positive",
+    "her2_positive",
+    "pr_positive"
+  ],
+  "accuracy": 0.7135416666666666,
+  "roc_auc": 0.7375136569377244,
+  "precision": 0.4,
+  "recall": 0.5581395348837209,
+  "f1": 0.46601941747572817,
+  "majority_class_baseline_accuracy": 0.7760416666666666,
+  "confusion_matrix": [
+    [
+      226,
+      72
+    ],
+    [
+      38,
+      48
+    ]
+  ],
+  "endpoint_definition": "Event=Deceased by 60 months; patients censored before 60 months excluded; patients observed >=60 months without death treated as 5-year survivors.",
+  "warning": "Research endpoint derived from observed follow-up; not an individualized clinical risk estimate."
+}

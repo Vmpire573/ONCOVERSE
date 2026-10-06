@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: oncoverse
+      POSTGRES_USER: oncoverse
+      POSTGRES_PASSWORD: oncoverse
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - oncoverse_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U oncoverse -d oncoverse"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+volumes:
+  oncoverse_pg:
