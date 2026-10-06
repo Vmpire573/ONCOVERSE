@@ -1,0 +1,58 @@
+{
+  "title": "CancerSEEK published cohort summary",
+  "source": {
+    "paper": "Cohen JD et al. Detection and localization of surgically resectable cancers with a multi-analyte blood test. Science. 2018;359(6378):926-930.",
+    "doi": "10.1126/science.aar3247",
+    "pmc": "PMC6080308",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6080308/",
+    "note": "Study-level values only. Individual CancerSEEK supplementary observations are not redistributed in this project."
+  },
+  "cohort_totals": {
+    "cancer_patients": 1005,
+    "healthy_controls": 812,
+    "total_samples": 1817,
+    "cancer_types": 8,
+    "protein_biomarkers": 39
+  },
+  "cancer_cohort": [
+    {"cancer_type":"Breast","patients":209},
+    {"cancer_type":"Colorectum","patients":388},
+    {"cancer_type":"Esophagus","patients":45},
+    {"cancer_type":"Liver","patients":44},
+    {"cancer_type":"Lung","patients":104},
+    {"cancer_type":"Ovary","patients":54},
+    {"cancer_type":"Pancreas","patients":93},
+    {"cancer_type":"Stomach","patients":68}
+  ],
+  "stage_distribution": [
+    {"cancer_type":"Breast","stage_I":32,"stage_II":114,"stage_III":63},
+    {"cancer_type":"Colorectum","stage_I":77,"stage_II":191,"stage_III":120},
+    {"cancer_type":"Esophagus","stage_I":5,"stage_II":29,"stage_III":11},
+    {"cancer_type":"Liver","stage_I":5,"stage_II":19,"stage_III":20},
+    {"cancer_type":"Lung","stage_I":46,"stage_II":27,"stage_III":31},
+    {"cancer_type":"Ovary","stage_I":9,"stage_II":4,"stage_III":41},
+    {"cancer_type":"Pancreas","stage_I":4,"stage_II":83,"stage_III":6},
+    {"cancer_type":"Stomach","stage_I":21,"stage_II":30,"stage_III":17}
+  ],
+  "demographics": [
+    {"cancer_type":"Breast","male":5,"female":204,"median_age":57,"age_range":"29-89"},
+    {"cancer_type":"Colorectum","male":212,"female":176,"median_age":65,"age_range":"22-93"},
+    {"cancer_type":"Esophagus","male":40,"female":5,"median_age":60,"age_range":"30-82"},
+    {"cancer_type":"Liver","male":34,"female":10,"median_age":62.5,"age_range":"28-79"},
+    {"cancer_type":"Lung","male":63,"female":41,"median_age":68.5,"age_range":"43-86"},
+    {"cancer_type":"Ovary","male":0,"female":54,"median_age":59.5,"age_range":"37-81"},
+    {"cancer_type":"Pancreas","male":55,"female":38,"median_age":67,"age_range":"44-86"},
+    {"cancer_type":"Stomach","male":53,"female":15,"median_age":64.5,"age_range":"35-82"}
+  ],
+  "published_benchmarks": {
+    "median_cancer_detection_sensitivity_percent": 70,
+    "specificity_percent_greater_than": 99,
+    "healthy_controls_positive": 7,
+    "two_site_localization_median_percent": 83,
+    "single_site_localization_median_percent": 63,
+    "stage_I_sensitivity_percent": 43,
+    "stage_II_sensitivity_percent": 73,
+    "stage_III_sensitivity_percent": 78
+  },
+  "interpretation": "These values describe the published CancerSEEK study. They are not OncoVerse model metrics and are not used as patient-level predictions."
+}

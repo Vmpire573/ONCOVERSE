@@ -1,0 +1,290 @@
+{
+  "pan_cancer_benchmark": {
+    "title": "CancerSEEK published cohort summary",
+    "source": {
+      "paper": "Cohen JD et al. Detection and localization of surgically resectable cancers with a multi-analyte blood test. Science. 2018;359(6378):926-930.",
+      "doi": "10.1126/science.aar3247",
+      "pmc": "PMC6080308",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6080308/",
+      "note": "Study-level values only. Individual CancerSEEK supplementary observations are not redistributed in this project."
+    },
+    "cohort_totals": {
+      "cancer_patients": 1005,
+      "healthy_controls": 812,
+      "total_samples": 1817,
+      "cancer_types": 8,
+      "protein_biomarkers": 39
+    },
+    "cancer_cohort": [
+      {
+        "cancer_type": "Breast",
+        "patients": 209
+      },
+      {
+        "cancer_type": "Colorectum",
+        "patients": 388
+      },
+      {
+        "cancer_type": "Esophagus",
+        "patients": 45
+      },
+      {
+        "cancer_type": "Liver",
+        "patients": 44
+      },
+      {
+        "cancer_type": "Lung",
+        "patients": 104
+      },
+      {
+        "cancer_type": "Ovary",
+        "patients": 54
+      },
+      {
+        "cancer_type": "Pancreas",
+        "patients": 93
+      },
+      {
+        "cancer_type": "Stomach",
+        "patients": 68
+      }
+    ],
+    "stage_distribution": [
+      {
+        "cancer_type": "Breast",
+        "stage_I": 32,
+        "stage_II": 114,
+        "stage_III": 63
+      },
+      {
+        "cancer_type": "Colorectum",
+        "stage_I": 77,
+        "stage_II": 191,
+        "stage_III": 120
+      },
+      {
+        "cancer_type": "Esophagus",
+        "stage_I": 5,
+        "stage_II": 29,
+        "stage_III": 11
+      },
+      {
+        "cancer_type": "Liver",
+        "stage_I": 5,
+        "stage_II": 19,
+        "stage_III": 20
+      },
+      {
+        "cancer_type": "Lung",
+        "stage_I": 46,
+        "stage_II": 27,
+        "stage_III": 31
+      },
+      {
+        "cancer_type": "Ovary",
+        "stage_I": 9,
+        "stage_II": 4,
+        "stage_III": 41
+      },
+      {
+        "cancer_type": "Pancreas",
+        "stage_I": 4,
+        "stage_II": 83,
+        "stage_III": 6
+      },
+      {
+        "cancer_type": "Stomach",
+        "stage_I": 21,
+        "stage_II": 30,
+        "stage_III": 17
+      }
+    ],
+    "demographics": [
+      {
+        "cancer_type": "Breast",
+        "male": 5,
+        "female": 204,
+        "median_age": 57,
+        "age_range": "29-89"
+      },
+      {
+        "cancer_type": "Colorectum",
+        "male": 212,
+        "female": 176,
+        "median_age": 65,
+        "age_range": "22-93"
+      },
+      {
+        "cancer_type": "Esophagus",
+        "male": 40,
+        "female": 5,
+        "median_age": 60,
+        "age_range": "30-82"
+      },
+      {
+        "cancer_type": "Liver",
+        "male": 34,
+        "female": 10,
+        "median_age": 62.5,
+        "age_range": "28-79"
+      },
+      {
+        "cancer_type": "Lung",
+        "male": 63,
+        "female": 41,
+        "median_age": 68.5,
+        "age_range": "43-86"
+      },
+      {
+        "cancer_type": "Ovary",
+        "male": 0,
+        "female": 54,
+        "median_age": 59.5,
+        "age_range": "37-81"
+      },
+      {
+        "cancer_type": "Pancreas",
+        "male": 55,
+        "female": 38,
+        "median_age": 67,
+        "age_range": "44-86"
+      },
+      {
+        "cancer_type": "Stomach",
+        "male": 53,
+        "female": 15,
+        "median_age": 64.5,
+        "age_range": "35-82"
+      }
+    ],
+    "published_benchmarks": {
+      "median_cancer_detection_sensitivity_percent": 70,
+      "specificity_percent_greater_than": 99,
+      "healthy_controls_positive": 7,
+      "two_site_localization_median_percent": 83,
+      "single_site_localization_median_percent": 63,
+      "stage_I_sensitivity_percent": 43,
+      "stage_II_sensitivity_percent": 73,
+      "stage_III_sensitivity_percent": 78
+    },
+    "interpretation": "These values describe the published CancerSEEK study. They are not OncoVerse model metrics and are not used as patient-level predictions."
+  },
+  "wisconsin": {
+    "dataset": "Breast Cancer Wisconsin Diagnostic (UCI dataset; bundled source-equivalent copy)",
+    "task": "benign_vs_malignant_research_classification",
+    "records": 569,
+    "features": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension"
+    ],
+    "accuracy": 0.9649122807017544,
+    "roc_auc": 0.9947089947089947,
+    "precision": 1.0,
+    "recall": 0.9047619047619048,
+    "f1": 0.95,
+    "majority_class_baseline_accuracy": 0.631578947368421,
+    "confusion_matrix": [
+      [
+        72,
+        0
+      ],
+      [
+        4,
+        38
+      ]
+    ],
+    "warning": "Research prototype; not a clinical diagnostic model."
+  },
+  "metabric_5y": {
+    "dataset": "Breast Cancer METABRIC (Kaggle)",
+    "task": "5_year_overall_survival_research_classification",
+    "records_used": 1917,
+    "positive_5y_events": 427,
+    "features": [
+      "age_at_diagnosis",
+      "tumor_size",
+      "tumor_stage",
+      "neoplasm_histologic_grade",
+      "lymph_nodes_examined_positive",
+      "mutation_count",
+      "nottingham_prognostic_index",
+      "er_positive",
+      "her2_positive",
+      "pr_positive"
+    ],
+    "accuracy": 0.7135416666666666,
+    "roc_auc": 0.7375136569377244,
+    "precision": 0.4,
+    "recall": 0.5581395348837209,
+    "f1": 0.46601941747572817,
+    "majority_class_baseline_accuracy": 0.7760416666666666,
+    "confusion_matrix": [
+      [
+        226,
+        72
+      ],
+      [
+        38,
+        48
+      ]
+    ],
+    "endpoint_definition": "Event=Deceased by 60 months; patients censored before 60 months excluded; patients observed >=60 months without death treated as 5-year survivors.",
+    "warning": "Research endpoint derived from observed follow-up; not an individualized clinical risk estimate."
+  },
+  "metabric_survival": {
+    "dataset": "Breast Cancer METABRIC",
+    "records_analyzed": 1981,
+    "events": 1144,
+    "median_followup_months": 116.46666670000002,
+    "cox_concordance_index_test": 0.5389710701245202,
+    "cox_train_records": 1485,
+    "cox_test_records": 496,
+    "cox_features": [
+      "age_at_diagnosis",
+      "tumor_stage",
+      "grade",
+      "mutation_count",
+      "er_positive",
+      "her2_positive",
+      "pr_positive"
+    ],
+    "warning": "C-index is evaluated on a held-out test partition; this is a research discrimination statistic, not clinical validation."
+  },
+  "artifacts": {
+    "wisconsin_roc": "results/figures/wisconsin_xgboost_roc_curve.png",
+    "wisconsin_shap": "results/figures/wisconsin_xgboost_shap_importance.png",
+    "metabric_roc": "results/figures/metabric_5y_xgboost_roc_curve.png",
+    "metabric_shap": "results/figures/metabric_5y_xgboost_shap_importance.png",
+    "metabric_km": "results/figures/metabric_kaplan_meier.png",
+    "metabric_km_er": "results/figures/metabric_kaplan_meier_er.png",
+    "metabric_cox": "results/tables/metabric_cox_results.csv"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "record_id",
+  "age": "age",
+  "sex": "gender",
+  "cancer_type": "diagnosis",
+  "stage": "stage",
+  "tumor_size_mm": "tumor_size_mm",
+  "grade": "grade",
+  "smoking_status": "smoking_status",
+  "outcome_label": "outcome",
+  "site_code": "hospital"
+}
